@@ -1,25 +1,31 @@
-/* Enter your custom styles here */
+/* Header bar background (green-white theme) */
 
-/* Custom header title styling */
+
+.customPageHeader .sapMBar {
+    background: linear-gradient(to left, rgb(200, 228, 98), white) !important;
+    border-bottom: 2px solid #444 !important; /* optional */
+}
+
+.customPageHeader .sapMTitle {
+    color: darkblue !important;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
 .customHeaderTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2fd10a; /* SAP blue */
+    color: darkblue !important;
+    font-weight: bold;
 }
 
-/* Footer bar styling */
-.customFooter {
-  background-color: #ac6e6e;
-  border-top: 1px solid #ccc;
+
+
+.customFooterBtn {
+    border: 2px solid #2e7d32;
+    border-radius: 6px !important;
 }
 
-/* Button styling */
-#idBtnCheckout, #idBtnSave {
-  background-color: #0a6ed1;
-  color: white;
-  border-radius: 4px;
-}
-
-#idBtnCheckout:hover, #idBtnSave:hover {
-  background-color: #0854a0;
-}
+.customFooterBar {
+    background: linear-gradient(to right, #e0fae4, #ffffff) !important; 
+    border-top: 2px solid #666 !important;
+    padding: 0.5rem !important;
+}   
