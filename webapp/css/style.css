@@ -1,0 +1,25 @@
+/* Enter your custom styles here */
+
+/* Custom header title styling */
+.customHeaderTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2fd10a; /* SAP blue */
+}
+
+/* Footer bar styling */
+.customFooter {
+  background-color: #ac6e6e;
+  border-top: 1px solid #ccc;
+}
+
+/* Button styling */
+#idBtnCheckout, #idBtnSave {
+  background-color: #0a6ed1;
+  color: white;
+  border-radius: 4px;
+}
+
+#idBtnCheckout:hover, #idBtnSave:hover {
+  background-color: #0854a0;
+}

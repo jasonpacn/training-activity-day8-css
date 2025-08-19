@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.css.training.training8.controller.View1">
+    <Page id="page" title="{i18n>title}">
+
+    <headerContent>
+        <Bar id="idHeaderBar">
+          <contentMiddle>
+            <Title id="title01" text="First Page" class=".customHeaderTitle"/>
+          </contentMiddle>
+        </Bar>
+    </headerContent>
+
+    
+        
+    <footer>
+        <OverflowToolbar id="idOFTFooter">
+            <ToolbarSpacer id="idTSpacerFooter"/>
+            <Button id="idBtnCheckout" text="{i18n>checkoutTxt}" tooltip="Check Out" press="onPressCheckout"/>
+            <Button id="idBtnSave" text="{i18n>saveTxt}" tooltip="Save" press="onPressSave"/>
+        </OverflowToolbar>
+    </footer>
+    </Page>
+</mvc:View>
