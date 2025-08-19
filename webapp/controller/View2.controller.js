@@ -4,17 +4,18 @@ sap.ui.define([
 ], (Controller, MessageBox) => {
     "use strict";
 
-    return Controller.extend("com.css.training.training8.controller.View1", {
+    return Controller.extend("com.css.training.training8.controller.View2", {
         onInit() {
             jQuery.sap.includeStyleSheet("css/style.css");
         },
-        onPressNext() {
-            sap.m.MessageBox.confirm("Do you want to go to the next page?", {
+
+        onPressReturn() {
+            sap.m.MessageBox.confirm("Do you want to return?", {
                 title: "Confirmation",
                 actions: [sap.m.MessageBox.Action.OK, sap.m.MessageBox.Action.CANCEL],
                 onClose: (oAction) => {
                     if (oAction === sap.m.MessageBox.Action.OK) {
-                        this.getOwnerComponent().getRouter().navTo("RouteView2");
+                        this.getOwnerComponent().getRouter().navTo("RouteView1");
                     }
                 }
             });

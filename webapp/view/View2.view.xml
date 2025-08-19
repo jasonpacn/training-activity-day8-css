@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    controllerName="com.css.training.training8.controller.View2">
+    <Page id="page2" title="{i18n>title2}" class="customPageHeader">
+        <footer>
+            <OverflowToolbar id="idOFTFooter2" class="customFooterBar">
+                <ToolbarSpacer id="idTSpacerFooter2"/>
+                <Button id="idBtnSave2" text="{i18n>saveTxt}" tooltip="{i18n>saveTxt}"
+                        press="onPressSave" class="customFooterBtn"/>
+                <Button id="idBtnReturn" text="{i18n>returnTxt}" tooltip="Return"
+                        press="onPressReturn" class="customFooterBtn"/>
+            </OverflowToolbar>
+        </footer>
+    </Page>
+</mvc:View>
