@@ -1,31 +1,28 @@
-/* Header bar background (green-white theme) */
 
 
 .customPageHeader .sapMBar {
-    background: linear-gradient(to left, rgb(200, 228, 98), white) !important;
-    border-bottom: 2px solid #444 !important; /* optional */
+    background: linear-gradient(to left, rgb(200, 228, 98), white);
+    border-bottom: 2px solid #444; 
 }
 
 .customPageHeader .sapMTitle {
-    color: darkblue !important;
+    color: darkblue;
     font-weight: bold;
     background-color: aquamarine;
 }
 
 .customHeaderTitle {
-    color: darkblue !important;
+    color: darkblue;
     font-weight: bold;
 }
 
-
-
 .customFooterBtn {
     border: 2px solid #2e7d32;
-    border-radius: 6px !important;
+    border-radius: 6px;
 }
 
 .customFooterBar {
-    background: linear-gradient(to right, #e0fae4, #ffffff) !important; 
-    border-top: 2px solid #666 !important;
-    padding: 0.5rem !important;
+    background: linear-gradient(to right, #e0fae4, #ffffff); 
+    border-top: 2px solid #666;
+    padding: 0.5rem;
 }   
