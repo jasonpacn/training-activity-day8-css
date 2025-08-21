@@ -16,10 +16,20 @@
 }
 
 .customFooterBtn {
+    background-color: #a5d6a7 !important; 
+    color: green !important;
     border: 2px solid #2e7d32;
     border-radius: 6px;
-    color: green !important;
+
 }
+
+
+.customFooterBtn .sapMBtnInner {
+    background-color: #a5d6a7 !important;
+    color: green !important;
+    font-weight: bold;
+}
+
 
 .customFooterBar {
     background: linear-gradient(to right, #94f3a2, #ffffff) !important; 
