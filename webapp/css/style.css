@@ -29,11 +29,21 @@
 }   
 
 .customMessageBox.sapMDialog {
-    background: linear-gradient(to right, #94f3a2, #ffffff) !important;
+    background:  #e8f5e9 !important;
     border: 2px solid #444 !important;
     border-radius: 10px !important;
     color: green !important;
+    background-color: #e8f5e9 !important;
 }
+
+
+.customMessageBox .sapMDialogScrollCont {
+    background-color: #e8f5e9 !important; 
+    border-radius: 8px;
+    padding: 1rem;
+    color: green !important;
+}
+
 
 .customMessageBox .sapMDialogTitle {
     color: green !important;
@@ -47,4 +57,14 @@
     border: 2px solid #2e7d32 !important;
     font-weight: bold;
 }
+
+
+.customMessageBox .sapMDialogActions {
+    background-color: #e8f5e9 !important;
+    border-top: 2px solid #444;
+    padding: 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
