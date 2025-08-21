@@ -1,28 +1,50 @@
 
 
 .customPageHeader .sapMBar {
-    background: linear-gradient(to left, rgb(200, 228, 98), white);
+    background: linear-gradient(to left, #94f3a2, #ffffff);
     border-bottom: 2px solid #444; 
 }
 
 .customPageHeader .sapMTitle {
-    color: darkblue;
+    color: green;
     font-weight: bold;
-    background-color: aquamarine;
 }
 
 .customHeaderTitle {
-    color: darkblue;
+    color: green;
     font-weight: bold;
 }
 
 .customFooterBtn {
     border: 2px solid #2e7d32;
     border-radius: 6px;
+    color: green !important;
 }
 
 .customFooterBar {
-    background: linear-gradient(to right, #e0fae4, #ffffff); 
+    background: linear-gradient(to right, #94f3a2, #ffffff) !important; 
     border-top: 2px solid #666;
     padding: 0.5rem;
+    
 }   
+
+.customMessageBox.sapMDialog {
+    background: linear-gradient(to right, #94f3a2, #ffffff) !important;
+    border: 2px solid #444 !important;
+    border-radius: 10px !important;
+    color: green !important;
+}
+
+.customMessageBox .sapMDialogTitle {
+    color: green !important;
+    font-weight: bold;
+    border-bottom: 2px solid #444;
+}
+
+.customMessageBox .sapMBtnInner {
+    background-color: #a5d6a7 !important;
+    color: green !important;
+    border: 2px solid #2e7d32 !important;
+    font-weight: bold;
+}
+

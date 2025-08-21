@@ -12,6 +12,7 @@ sap.ui.define([
         onPressReturn() {
             sap.m.MessageBox.confirm("Do you want to return?", {
                 title: "Confirmation",
+                styleClass: "customMessageBox",
                 actions: [sap.m.MessageBox.Action.OK, sap.m.MessageBox.Action.CANCEL],
                 onClose: (oAction) => {
                     if (oAction === sap.m.MessageBox.Action.OK) {
